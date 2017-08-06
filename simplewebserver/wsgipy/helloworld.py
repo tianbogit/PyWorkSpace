@@ -1,9 +1,9 @@
-# coding:utf-8
+# coding:Utf-8
 
 def application(env,start_response):
     status = '200 OK'
-    headers =[
+    headers = [
         ('Content-Type','text/plain')
     ]
     start_response(status,headers)
-    return "say hello"
+    return 'hello world'
